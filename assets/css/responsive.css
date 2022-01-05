@@ -1,0 +1,60 @@
+/* TABLET */
+
+@media (max-width: 1190px) {
+  .flex {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 720px) {
+  .grid {
+    padding: 0 20px;
+  }
+
+  .flex {
+    width: (90%, 300px);
+    grid-template-columns: 1fr;
+  }
+
+  .people-img {
+    display: none;
+  }
+
+  .text-introduction h1 {
+    font-size: 3.6rem;
+  }
+
+  .btn-intro {
+    padding: 15px;
+  }
+
+  .nav {
+    padding: 15px 0;
+  }
+
+  .nav ul{
+    display: none;
+  }
+
+  .nav-menu li a {
+    font-size: 1.2rem;
+  }
+
+  .form {
+    width: 300px;
+  }
+
+  .form form {
+    width: 100%;
+  }
+
+  .form form button {
+    padding: 15px 20px;
+    font-size: 1.4rem;
+  }
+
+}
+
+/* TABLET */
