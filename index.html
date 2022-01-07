@@ -274,9 +274,15 @@
       <section class="form" id="contact" data-js="visible">
         <h2 class="subtitle">Fale Comigo</h2>
 
-        <form>
+        <form action="https://formsubmit.co/cimofelipe4@gmail.com" method="POST">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucessMail.html">
           <label for="email">Email</label>
           <input type="email" required placeholder="E-mail" />
+          <input type="hidden" name="_template" value="box">
+
+          <input type="hidden" name="_captcha" value="false">
+          <input type = "text" name = "_ honey" style = "display: none">
+
           <label for="message">Message</label>
           <textarea
             placeholder="Deixe sua mensagem"
@@ -288,7 +294,7 @@
           ></textarea>
 
           <div class="btn-submit">
-            <button>Enviar :)</button>
+            <button id="btnSubmit" onclick="Modal.open()">Enviar :)</button>
           </div>
         </form>
       </section>
