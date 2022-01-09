@@ -4,13 +4,53 @@
   .flex {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .logo{
+    min-width: 150px;
+  }
+
+  .btn-intro span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .btn-intro{
+    gap: 7px;
+    width: 28%;
+    padding: 13px 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    transition: .4s;
+    border-radius: 0.19rem;
+  }
+
 }
+
+
+@media (min-width: 720px) and (max-width: 900px) {
+  .btn-intro{
+    width: 35%;
+  }
+
+  .nav-menu li a{
+    font-size: 1.4rem;
+  }
+}
+
 
 /* MOBILE */
 
 @media (max-width: 720px) {
+
   .grid {
     padding: 0 20px;
+  }
+
+  .logo{
+    display: grid;
+    justify-content: center;
   }
 
   .flex {
@@ -25,6 +65,8 @@
   .text-introduction h1 {
     font-size: 3.6rem;
   }
+
+  
 
   .btn-intro {
     padding: 15px;
@@ -53,6 +95,11 @@
   .form form button {
     padding: 15px 20px;
     font-size: 1.4rem;
+  }
+
+  .btn-intro{
+    gap: 0.7rem;
+    width: 35%;
   }
 
 }
