@@ -18,7 +18,7 @@
 
   .btn-intro{
     gap: 7px;
-    width: 28%;
+    width: 30%;
     padding: 13px 10px;
     margin-top: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
@@ -37,20 +37,25 @@
   .nav-menu li a{
     font-size: 1.4rem;
   }
-}
 
+  .people-img {
+    display: none;
+  }
+
+}
 
 /* MOBILE */
 
 @media (max-width: 720px) {
 
   .grid {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 
   .logo{
     display: grid;
     justify-content: center;
+    margin-left: 10px;
   }
 
   .flex {
@@ -65,8 +70,6 @@
   .text-introduction h1 {
     font-size: 3.6rem;
   }
-
-  
 
   .btn-intro {
     padding: 15px;
@@ -89,7 +92,7 @@
   }
 
   .form form {
-    width: 100%;
+    width: 90%;
   }
 
   .form form button {
