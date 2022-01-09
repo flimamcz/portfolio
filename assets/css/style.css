@@ -29,6 +29,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     background: var(--color-body);
+
+    cursor: url(../img/Ellipse.svg), auto;
 }
 
 ul, li, a{
@@ -62,8 +64,6 @@ img{
 .gridModal{
     display: flex;
     align-items: center;
-    gap: 40px;
-    max-width: 600px;
 }
 
 .modalText h1{
