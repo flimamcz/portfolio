@@ -51,6 +51,17 @@
     padding: 0 10px;
   }
 
+  .gridModal{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .modalBtn{
+    display: flex;
+    justify-content: center;
+  }
+
   .logo{
     display: grid;
     justify-content: center;
