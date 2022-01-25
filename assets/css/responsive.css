@@ -101,20 +101,20 @@
     width: 300px;
   }
 
-  .form form {
-    width: 90%;
+  .form {
+    width: min(90vw, 300px);
   }
 
-  .form form button {
-    padding: 15px 20px;
-    font-size: 1.4rem;
+  .form form{
+    width: min(90vw, 300px);
   }
 
   .btn-intro{
     gap: 0.7rem;
     width: 35%;
   }
-
 }
+
+
 
 /* TABLET */
