@@ -13,7 +13,3 @@ function initVisibleElements(){
 }
 initVisibleElements()
 window.addEventListener('scroll', initVisibleElements)
-
-if(window.screen.width < 700){
-    attention.innerText = 'TOQUE NA IMAGEM PARA VISUALIZAR O PROJETO'
-}
