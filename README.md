@@ -1,4 +1,4 @@
-# Portfólio desenvolvido para treinar conhecimentos adquiridos.
+# Portfólio Pessoal
 
 ###### Tecnologias utilizadas
 
