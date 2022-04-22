@@ -103,7 +103,6 @@ img{
     transform: scale(1.05);
 }
 
-
 /*ESTILOS GLOBAIS*/
 
 .grid{
@@ -196,29 +195,12 @@ img{
     font-size: 1.6rem;
     font-weight: 500;
     color: #fff;
-}
-
-.nav-menu li a:hover::after{
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: var(--color-button);
     display: block;
-
-    animation: link .3s forwards;
 }
 
-
-@keyframes link{
-    0%{
-        width: 0%;
-    }
-
-    100%{
-        width: 100%;
-    }
+.nav-menu li a:hover{
+    transform: scale(1.05);
 }
-
 
 .btn-contact{
     background-color: var(--color-button);
