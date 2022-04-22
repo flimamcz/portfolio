@@ -289,7 +289,6 @@ img{
 
 .btn-intro:hover{
     transform: scale(1.05);
-    cursor: url(../img/link-extern.svg), auto;
 }
 
 /*SKILLS*/
@@ -407,12 +406,17 @@ img{
 }
 
 .bg-project-4{
-    background: url("/assets/img/img-projects/blog.png") no-repeat center;
+    background: url("/assets/img/img-projects/climaetempo.png") no-repeat center;
     background-size: cover;
 }
 
 .bg-project-5{
     background: url("/assets/img/img-projects/eveHistory.png") no-repeat center;
+    background-size: cover;
+}
+
+.bg-project-6{
+    background: url("/assets/img/img-projects/tmdb.png") no-repeat center;
     background-size: cover;
 }
 
@@ -547,7 +551,6 @@ img{
 .form form button:hover{
     background: #FF4A44;
     transform: scale(1.05);
-    cursor: url(../img/send.svg), auto;
 }
 
 /*SERVICES*/
